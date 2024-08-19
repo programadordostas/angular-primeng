@@ -4,7 +4,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 @Component({
   selector: 'app-sidebar-main',
   templateUrl: './sidebar-main.component.html',
-  styleUrl: './sidebar-main.component.css',
+  styleUrl: './sidebar-main.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class SidebarMainComponent { }
