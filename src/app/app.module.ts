@@ -5,6 +5,7 @@ import { ButtonModule } from 'primeng/button';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidebarMainComponent } from './sidebar/sidebar-main/sidebar-main.component';
+import { DataViewModule } from 'primeng/dataview';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { SidebarMainComponent } from './sidebar/sidebar-main/sidebar-main.compon
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ButtonModule
+    ButtonModule,
+    DataViewModule
   ],
   providers: [],
   bootstrap: [AppComponent]
